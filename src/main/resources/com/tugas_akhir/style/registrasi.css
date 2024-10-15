@@ -1,0 +1,69 @@
+.bg-white {
+  -fx-background-color: white;
+  -fx-background-radius: 20;
+  -fx-border-radius: 20;
+}
+
+.root {
+  -fx-background-color: #7db46f;
+}
+
+.label {
+  -fx-font-size: 20;
+  -fx-text-fill: #3f7631;
+}
+
+.text-field {
+  -fx-border-color: rgba(0, 0, 0, 0.4);
+  -fx-border-radius: 5;
+  -fx-background-radius: 5;
+}
+
+.hyperlink {
+  -fx-text-fill: #ffffff;
+  -fx-font-size: 13;
+  -fx-underline: false;
+  -fx-background-radius: 20;
+  -fx-background-color: #4d784e;
+  -fx-border-color: #ffffff;
+}
+
+.tf-black {
+  -fx-text-fill: black;
+}
+
+#signUp {
+  -fx-background-color: #3f7631;
+  -fx-font-size: 20;
+  -fx-text-fill: white;
+  -fx-padding: 5px 50px 5px 50px;
+  -fx-background-radius: 5;
+  -fx-border-radius: 5;
+  -fx-border-color: transparent;
+}
+
+#signUp:hover {
+  -fx-background-color: #336028;
+  -fx-cursor: hand;
+}
+
+#signUp:pressed {
+  -fx-background-color: #2d5523;
+  -fx-translate-y: 2;
+}
+
+.hyperlink: hover {
+  -fx-background-color: #3d603d;
+}
+
+.hyperlink: pressed {
+  -fx-background-color: #284128;
+}
+
+.login {
+  -fx-text-fill: #0060ff;
+  -fx-font-size: 20;
+  -fx-underline: false;
+  -fx-background-color: false;
+  -fx-border-color: false;
+}

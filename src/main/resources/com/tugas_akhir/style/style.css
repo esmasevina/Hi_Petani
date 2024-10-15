@@ -1,0 +1,298 @@
+#header,
+#footer {
+  -fx-background-color: #4d784e;
+}
+
+#sidebar {
+  -fx-background-color: #7db46f;
+}
+
+#header .hyperlink,
+#topQuestions,
+#sidebar .label {
+  -fx-text-fill: #ffffff;
+  -fx-font-size: 25;
+  -fx-font-weight: 800;
+  -fx-underline: false;
+  -fx-background-radius: 20px;
+  -fx-border-color: rgba(255, 255, 255, 0);
+  -fx-padding: 2.5px 20px 2.5px 20px;
+}
+
+.hyperlink#topQuestions {
+  -fx-padding: 2.5px 20px 2.5px 40px;
+}
+
+#header .hyperlink:hover,
+#askQuestionsBtn:hover,
+#topQuestions:hover {
+  -fx-background-color: #335635;
+  -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.25), 5, 0, 0, 2);
+}
+#askQuestionsBtn:hover {
+  -fx-translate-y: -3;
+}
+
+#askQuestionsBtn:pressed,
+.tr-2:presser .imgUsr,
+.tr-2:presser .hyUsr,
+#topQuestions:pressed,
+#header .hyperlink:pressed {
+  -fx-translate-y: 2;
+}
+
+#header .hyperlink:pressed,
+#askQuestionsBtn:pressed,
+#topQuestions:pressed {
+  -fx-background-color: #253d25;
+}
+
+.hyperlink#user {
+  -fx-padding: 25px 20px 25px 115px;
+}
+
+#footer .label {
+  -fx-font-size: 18;
+  -fx-text-fill: white;
+}
+
+#askQuestionsBtn,
+.button {
+  -fx-background-color: #3f7540;
+  -fx-underline: false;
+  -fx-background-radius: 20px;
+  -fx-border-color: rgba(255, 255, 255, 0);
+  -fx-padding: 2.5px 20px 2.5px 20px;
+  -fx-text-fill: white;
+  -fx-padding: 2.5px 20px 2.5px 20px;
+  -fx-cursor: hand;
+}
+
+#totalQuestions {
+  -fx-text-fill: #8dc77f;
+}
+
+.hyperlink {
+  -fx-margin: 0;
+  -fx-font-size: 23;
+  -fx-font-weight: 800;
+  -fx-text-fill: #4d784e;
+  -fx-underline: false;
+  -fx-border-color: rgba(255, 255, 255, 0);
+}
+
+.hyperlink:hover {
+  -fx-text-fill: #345335;
+}
+
+.check-box {
+  -fx-text-fill: white;
+  -fx-font-size: 17;
+  -fx-font-weight: 800;
+  -fx-border-color: transparent;
+}
+
+.check-box:hover {
+  -fx-cursor: hand;
+}
+
+.check-box .box {
+  -fx-border-color: #8dc77f;
+  -fx-background-radius: 4px;
+  -fx-border-radius: 4px;
+}
+
+.check-box:selected .box {
+  -fx-background-color: #3f7540;
+}
+
+.check-box:selected .mark {
+  -fx-background-color: white;
+  -fx-background-radius: 4px;
+}
+
+.check-box:hover .box {
+  -fx-background-color: #8dc77f;
+  -fx-border-color: white;
+}
+
+.hyperlink:visited {
+  -fx-background-color: #355635;
+  -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.25), 5, 0, 0, 3);
+}
+
+.judulAboutContact {
+  -fx-font-size: 40;
+  -fx-font-weight: bold;
+  -fx-text-fill: #3f7540;
+  -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.25), 5, 0, 0.5, 2);
+}
+
+.noTelpEmail {
+  -fx-font-size: 25;
+  -fx-font-weight: bold;
+  -fx-text-fill: #3f7540;
+  -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.25), 5, 0, 0.5, 2);
+}
+
+.fs-18 {
+  -fx-font-size: 18;
+  -fx-text-alignment: justify;
+  -fx-margin: 5px 0 0 0;
+}
+
+.judulPertanyaanDetail {
+  -fx-font-size: 40;
+  -fx-font-weight: bold;
+  -fx-text-fill: #3f7540;
+  -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.25), 5, 0, 0.5, 2);
+}
+
+.authorPertanyaanDetail {
+  -fx-font-size: 20;
+  -fx-font-weight: bold;
+  -fx-text-fill: #8dc77f;
+}
+
+.isiPertanyaanDetail {
+  -fx-font-size: 18;
+  -fx-text-alignment: justify;
+  -fx-margin: 5px 0 0 0;
+  -fx-alignment: top-left;
+}
+
+.detailLikeComment {
+  -fx-font-size: 20;
+  -fx-text-fill: white;
+  -fx-background-color: #3d703e;
+  -fx-padding: 5px 20px 5px 50px;
+  -fx-background-radius: 8px;
+}
+
+.animateUpp {
+  -fx-background-color: transparent;
+}
+
+.animateUpp:hover .detailLikeComment,
+.animateUpp:hover .animateUp {
+  -fx-translate-y: -3;
+}
+
+.animateUpp:pressed .detailLikeComment,
+.animateUpp:pressed .animateUp {
+  -fx-translate-y: 2;
+}
+
+.animateUpp:pressed .detailLikeComment {
+  -fx-text-fill: white;
+  -fx-background-color: #336034;
+}
+
+.detailLikeComment:hover {
+  -fx-text-fill: white;
+  -fx-background-color: #294e2a;
+}
+
+.totalKomentar {
+  -fx-font-size: 27;
+  -fx-font-weight: bold;
+  -fx-text-fill: #3f7540;
+}
+
+.border {
+  -fx-border-color: black;
+  -fx-border-radius: 5px;
+}
+
+.font-20 {
+  -fx-font-size: 20;
+  -fx-alignment: top-left;
+}
+
+.komentator {
+  -fx-font-size: 18;
+  -fx-text-fill: #83b876;
+}
+
+.bd-bot {
+  -fx-border-color: transparent transparent rgba(0, 0, 0, 0.3) transparent;
+  -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.25), 5, 0, 0, 2);
+}
+
+.reset {
+  -fx-effect: dropshadow(gaussian, transparent, 0, 0, 0, 0);
+  -fx-font-size: 13;
+  -fx-text-fill: transparent;
+  -fx-background-color: transparent;
+  -fx-border-color: transparent;
+  -fx-padding: 0 0 0 0;
+  -fx-margin: 0 0 0 0;
+}
+
+.fontControlPanel {
+  -fx-font-size: 17;
+  -fx-text-fill: #3f7540;
+}
+
+.border-noRadius {
+  -fx-border-color: transparent transparent black transparent;
+}
+
+.border-noRadiusLeft {
+  -fx-border-color: transparent black transparent transparent;
+}
+
+.postButton {
+  -fx-font-size: 25;
+}
+
+.postButton:hover {
+  -fx-translate-y: -3;
+  -fx-background-color: #335635;
+}
+
+.postButton:pressed {
+  -fx-translate-y: 2;
+  -fx-background-color: #284429;
+}
+
+.loginBtn {
+  -fx-font-size: 27;
+  -fx-font-weight: bold;
+  -fx-padding: 5px 50px 5px 50px;
+  -fx-background-color: #8dc77f;
+  -fx-background-radius: 30;
+}
+
+.loginBtn:hover {
+  -fx-background-color: #69a15c;
+  -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.25), 5, 0, 0, 2);
+}
+
+.loginBtn:pressed {
+  -fx-background-color: #49763e;
+  -fx-translate-y: 2;
+}
+
+.judulAskingQuestion {
+  -fx-font-size: 40;
+  -fx-font-weight: bold;
+  -fx-text-fill: #3f7540;
+  -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.25), 5, 0, 0.5, 2);
+}
+
+.labelAskingQuestion {
+  -fx-font-size: 28;
+  -fx-font-weight: bold;
+  -fx-text-fill: #3f7540;
+  -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.25), 5, 0, 0.5, 2);
+}
+
+.choiceBoxKategori {
+  -fx-background-color: white;
+}
+
+.submitBtn {
+  -fx-font-size: 25;
+  -fx-padding: 4px 40px 4px 40px;
+}

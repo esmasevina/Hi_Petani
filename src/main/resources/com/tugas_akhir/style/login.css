@@ -1,0 +1,14 @@
+#label{
+    -fx-font-size: 18;
+    -fx-text-fill: white;
+    -fx-font-weight: 800;
+}
+
+#login:hover{
+    -fx-cursor:hand;
+    -fx-translate-y:-3;
+}
+
+#login:pressed{
+    -fx-translate-y:2;
+}

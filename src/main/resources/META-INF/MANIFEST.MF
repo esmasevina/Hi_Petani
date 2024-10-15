@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Main-Class: com.tugas_akhir.Launcer
+Class-Path: javafx-base-16.jar mysql-connector-java-8.0.28.jar javafx-gr
+ aphics-16-mac.jar javafx-base-16-mac.jar javafx-controls-16.jar javafx-
+ fxml-16-mac.jar javafx-controls-16-mac.jar javafx-graphics-16.jar javaf
+ x-swt.jar javafx.web.jar javafx.base.jar javafx.fxml.jar javafx.media.j
+ ar javafx.swing.jar javafx.controls.jar javafx.graphics.jar
+

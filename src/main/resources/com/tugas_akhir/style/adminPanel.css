@@ -1,0 +1,52 @@
+#addBtn {
+  -fx-background-color: #3f7540;
+  -fx-background-radius: 25px;
+  -fx-border-radius: 25px;
+  -fx-text-fill: white;
+  -fx-font-size: 18;
+  -fx-padding: 5px 25px 5px 25px;
+  -fx-alignment: center;
+  -fx-cursor: hand;
+}
+
+#categories {
+  -fx-text-fill: #3f7540;
+  -fx-font-size: 25;
+  -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.25), 5, 0, 0, 3);
+  -fx-font-weight: bold;
+}
+#addBtn:hover {
+  -fx-translate-y: -2;
+}
+
+#addBtn:pressed {
+  -fx-translate-y: 2;
+  -fx-background-color: #253d25;
+}
+
+.bg-ijo {
+  -fx-background-color: #7db46f;
+}
+
+.bg-white {
+  -fx-background-color: white;
+  -fx-background-radius: 5;
+  -fx-border-radius: 5;
+}
+
+.border {
+  -fx-border-color: transparent transparent rgba(0, 0, 0, 0.25) transparent;
+}
+
+.fontStyle {
+  -fx-font-size: 20;
+  -fx-text-fill: #32815b;
+}
+
+.animate {
+  -fx-cursor: hand;
+}
+
+.animate:pressed {
+  -fx-translate-y: 2;
+}

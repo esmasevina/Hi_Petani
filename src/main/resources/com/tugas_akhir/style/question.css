@@ -1,0 +1,38 @@
+.root {
+  -fx-border-color: black;
+  -fx-border-radius: 5;
+}
+
+.fs-17 {
+  -fx-font-size: 17;
+}
+
+.judulPertanyaan {
+  -fx-margin: 0;
+  -fx-font-size: 23;
+  -fx-font-weight: 800;
+  -fx-text-fill: #4d784e;
+  -fx-underline: false;
+  -fx-border-color: rgba(255, 255, 255, 0);
+  -fx-background-color : transparent;
+}
+
+.judulPertanyaan:pressed {
+  -fx-background-color : transparent;
+}
+
+.judulPertanyaan:visited{
+ -fx-background-color : transparent;
+}
+
+.kategori {
+  -fx-background-color: #3f7540;
+  -fx-underline: false;
+  -fx-background-radius: 20px;
+  -fx-border-color: rgba(255, 255, 255, 0);
+  -fx-padding: 2.5px 0px 2.5px 0px;
+  -fx-text-fill: white;
+  -fx-padding: 2.5px 20px 2.5px 20px;
+  -fx-cursor: hand;
+  -fx-font-size: 14;
+}

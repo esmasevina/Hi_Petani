@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="400.0" styleClass="root" stylesheets="@style/registrasi.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.tugas_akhir.controller.regisController">
+   <children>
+      <ImageView fitHeight="54.0" fitWidth="158.0" layoutX="115.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@icons/logo.png" />
+         </image>
+      </ImageView>
+      <Pane layoutX="50.0" layoutY="75.0" prefHeight="400.0" prefWidth="300.0" styleClass="bg-white">
+         <children>
+            <Label layoutX="6.0" layoutY="25.0" text="Username" />
+            <TextField fx:id="username" layoutX="7.0" layoutY="55.0" prefHeight="25.0" prefWidth="280.0">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <Label layoutX="6.0" layoutY="95.0" text="Nama Lengkap" />
+            <TextField fx:id="namaLengkap" layoutX="7.0" layoutY="125.0" prefHeight="25.0" prefWidth="280.0">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <Label layoutX="6.0" layoutY="165.0" text="Password" />
+            <TextField fx:id="password" layoutX="7.0" layoutY="195.0" prefHeight="25.0" prefWidth="280.0">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <Label layoutX="6.0" layoutY="235.0" text="No Handphone" />
+            <TextField fx:id="noHp" layoutX="7.0" layoutY="265.0" prefHeight="25.0" prefWidth="280.0">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <Button fx:id="signUp" layoutX="62.0" layoutY="336.0" mnemonicParsing="false" text="Sign Up" />
+         </children>
+      </Pane>
+      <Label layoutX="85.0" layoutY="493.0" styleClass="tf-black" text="Do have account ?" />
+      <Hyperlink fx:id="login" styleClass="login" layoutX="245.0" layoutY="489.0" text="Log In" />
+   </children>
+</AnchorPane>
